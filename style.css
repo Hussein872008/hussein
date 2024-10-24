@@ -1,0 +1,529 @@
+.carousel-item img {
+    height: 70vh;
+    max-height: 900px;
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.read-more {
+    padding: 10px 20px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0;
+    transition: background-color 0.3s ease;
+    font-weight:bold;
+}
+
+.read-more:hover {
+    background-color:transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.details-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0 200px 0;
+}
+
+
+.title  h4{
+    font-family:"Updock", cursive;
+}
+
+.title  h1{
+    font-family:"Slabo 27px", serif;
+    font-size: 50px;
+}
+
+
+
+.navbar {
+    z-index: 10;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+
+
+.navbar-brand img {
+    filter: invert(100%);
+    width: 100px;
+}
+
+
+.material-symbols-outlined{
+    color: white;
+}
+
+
+.navbar-nav .nav-link {
+    margin-right: 50px;
+}
+
+.material-symbols-outlined {
+    margin: 0px 30px 0 0;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.opjects {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.details-opjects{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+.opjects{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+
+  .details-opjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+  }
+  
+  .details-opjects img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .details-opjects h5 {
+    margin-top: 10px;
+  }
+  
+  .details-opjects p {
+    margin-top: 5px;
+  }
+  
+
+
+.page1{
+    height: 100vh;
+}
+
+
+.page2{
+    background-color: rgb(250, 239, 219);
+}
+
+
+.page2 h1{
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Ruge Boogie", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .page2 h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+  .page2 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.details-wonderful-gift {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+
+}
+
+ 
+
+
+
+
+
+.wonderful-gift {
+    position: relative;
+    text-align: center;
+    width: 400px;
+}
+
+.wonderful-gift img {
+    width: 100%;
+    height: auto;
+}
+
+.sale-sold {
+    position: absolute; 
+    top: 0px; 
+    right: 0px; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding:  10px;
+    color: rgb(255, 255, 255);
+    font-weight:unset;
+    z-index: 1;
+
+
+}
+
+
+
+.wonderful-gift h5 {
+    color: #555;
+    margin-top: 10px;
+}
+
+.h{
+    text-decoration: line-through;
+    color: #555;
+}
+
+
+.h, .h0 {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+.ppp {
+    position: relative;
+    width: 100%;
+}
+
+.ppp img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.pp-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    text-align: center;
+}
+
+.pp {
+    color: white;
+    padding: 10px;
+}
+
+
+.perfect-spot{
+    display: flex;
+    padding: 100px;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.perfect-spot img{
+    width: auto;
+    height: 400px;
+}
+
+.perfect-spot h3 {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.perfect-spot h1 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.perfect-spot p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.perfect-spot button {
+    margin: 30px;
+    padding: 20px;
+    font-family: "Quicksand", sans-serif;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.perfect-spot button:hover {
+    background-color: #070707;
+    color: white;
+}
+
+
+.ccc{
+    background-image:url(img16.jpg);
+    background-size: cover;
+}
+
+
+.asd{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+
+.team {
+    background-image: url(img16.jpg);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.team2 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.team2 h2 {
+    font-size: 3rem; 
+    margin-bottom: 30px;
+}
+
+.details-wonderful-gift {
+    display: flex;
+}
+
+.wonderful-gift1 {
+    border-radius: 0px;
+    margin: 15px;
+    text-align: center;
+    width: 350px;
+}
+
+.wonderful-gift1 img {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.comunicate {
+    margin-top: 15px;
+}
+
+.comunicate i {
+    font-size: 20px;
+    margin: 0 10px; 
+    cursor: pointer;
+}
+
+
+.images-groub {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 0px;
+}
+
+.images-groub img {
+    width: 100%;
+    height: 300px;
+    border-radius: 0px;
+
+
+}
+.subscribe{
+
+    background-color:rgb(250, 239, 219) ;
+}
+
+
+
+
+
+.subscribe input {
+    width: 900px;
+    padding: 20px;
+    border-radius: 0px;
+    border: none;
+}
+
+.subscribe .btn-send {
+    padding: 20px 15px;
+    border: none;
+    border-radius: 0px;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe .btn-send:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.mm {
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.mmm {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.content {
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    margin: 20px;   
+    height: 350px;
+    width: 100%;
+}
+
+.box {
+    border:none;
+    border-radius: 0px;
+    padding: 20px;
+    width: 300px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 0px;
+}
+
+.box p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #838282; 
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+}
+
+.icons i {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #6d6c6c;
+
+}
+
+.box h2{
+    color: white;
+}
+
+.working-hours{
+    display: flex;
+    flex-direction: column;
+    color: rgb(133, 133, 133);
+    display: inline-block;
+}
+
+
+
+
+.find-us {
+    font-size: 14px;
+    color: #868585;
+    line-height: 1.6;
+    display: block; 
+}
+
+
+.instagram-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 10px;
+    object-fit: cover;
+}
+
+.instagram-images img {
+    width: 100px;
+    height: 50px; 
+    border-radius: 0px;
+    transition: transform 0.3s;
+}
+
+.instagram-images img:hover {
+    transform: scale(1.05);
+}
+
+.rr h1{
+    background-color: rgb(0, 0, 0);
+    color: #807e7e;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+}
+
+
+
+
